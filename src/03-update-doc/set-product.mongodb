@@ -1,0 +1,134 @@
+// set-product.mongodb
+
+use("pet_store")
+
+db.products.updateOne(
+    { "title": "Collar de cuero para perros" },
+    {
+      $set: {
+        "title": "Collar Ajustable",
+        "price": 48000,
+        "description": "Collar duradero y ajustable para perros de todos los tamaños.",
+        "category": "Accesorios para Mascotas",
+        "image": "nueva_url_imagen_1"
+      }
+    }
+  )
+
+  db.products.updateOne(
+    { "title": "Juguete mordedor para cachorros" },
+    {
+      $set: {
+        "title": "Juguete Interactivo para Cachorros",
+        "price": 30000,
+        "description": "Juguete de goma resistente para cachorros en etapa de dentición.",
+        "category": "Entretenimiento Canino",
+        "image": "nueva_url_imagen_2"
+      }
+    }
+  )
+
+  db.products.updateOne(
+    { "title": "Comedero automático para gatos" },
+    {
+      $set: {
+        "title": "Comedero Programable Inteligente",
+        "price": 80000,
+        "description": "Comedero inteligente para mantener la comida fresca y en horarios regulares.",
+        "category": "Alimentación Automatizada",
+        "image": "nueva_url_imagen_3"
+      }
+    }
+  )
+
+  db.products.updateOne(
+    { "title": "Cama ortopédica para perros grandes" },
+    {
+      $set: {
+        "title": "Cama Ortopédica Premium",
+        "price": 135000,
+        "description": "Cama ortopédica de lujo para perros grandes con problemas articulares.",
+        "category": "Descanso de Alta Gama",
+        "image": "nueva_url_imagen_4"
+      }
+    }
+  )
+
+  db.products.updateOne(
+    { "title": "Arnés reflectante para paseos nocturnos" },
+    {
+      $set: {
+        "title": "Arnés Reflectante de Seguridad",
+        "price": 60000,
+        "description": "Arnés ajustable y reflectante para mayor seguridad en paseos nocturnos.",
+        "category": "Accesorios de Paseo",
+        "image": "nueva_url_imagen_5"
+      }
+    }
+  )
+  
+  db.products.updateOne(
+    { "title": "Cepillo de pelo para gatos de pelo largo" },
+    {
+      $set: {
+        "title": "Cepillo Profesional para Pelaje Largo",
+        "price": 38000,
+        "description": "Cepillo suave y eficaz para desenredar el pelo largo de los gatos.",
+        "category": "Higiene y Cuidado Felino",
+        "image": "nueva_url_imagen_6"
+      }
+    }
+  )
+
+  db.products.updateOne(
+    { "title": "Juguete interactivo dispensador de premios" },
+    {
+      $set: {
+        "title": "Juguete de Estimulación Mental",
+        "price": 55000,
+        "description": "Juguete que estimula la mente del perro al dispensar premios durante el juego.",
+        "category": "Juguetes Educativos",
+        "image": "nueva_url_imagen_7"
+      }
+    }
+  )
+
+  db.products.updateOne(
+    { "title": "Transportadora para gatos pequeños" },
+    {
+      $set: {
+        "title": "Transportadora Versátil para Mascotas",
+        "price": 72000,
+        "description": "Transportadora cómoda y segura para gatos de tamaño pequeño.",
+        "category": "Accesorios de Viaje",
+        "image": "nueva_url_imagen_8"
+      }
+    }
+  )
+  
+  db.products.updateOne(
+    { "title": "Chaleco salvavidas para perros" },
+    {
+      $set: {
+        "title": "Chaleco de Seguridad Acuática",
+        "price": 90000,
+        "description": "Chaleco flotante y ajustable para perros durante actividades acuáticas.",
+        "category": "Accesorios para Deportes Acuáticos",
+        "image": "nueva_url_imagen_9"
+      }
+    }
+  )
+
+  db.products.updateOne(
+    { "title": "Snack natural de pollo para entrenamiento" },
+    {
+      $set: {
+        "title": "Premios de Entrenamiento Saludables",
+        "price": 35000,
+        "description": "Premios pequeños y saludables ideales para el entrenamiento de mascotas.",
+        "category": "Premios y Recompensas",
+        "image": "nueva_url_imagen_10"
+      }
+    }
+  )
+  
