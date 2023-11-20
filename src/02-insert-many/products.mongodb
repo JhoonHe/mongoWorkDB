@@ -1,0 +1,148 @@
+// products.mongodb
+
+use("pet_store")
+
+db.products.drop() // elimina los documentos creados en la colleccion anteriormente
+
+db.products.insertMany([
+    {
+        "title": "Collar de cuero para perros",
+        "price": 45000,
+        "description": "Collar resistente y ajustable para perros de todos los tamaños.",
+        "category": "Accesorios",
+        "image": "url_imagen_1"
+    },
+    {
+        "title": "Juguete mordedor para cachorros",
+        "price": 25000,
+        "description": "Juguete de goma duradera para cachorros en etapa de dentición.",
+        "category": "Juguetes",
+        "image": "url_imagen_2"
+    },
+    {
+        "title": "Comedero automático para gatos",
+        "price": 75000,
+        "description": "Comedero programable para mantener la comida fresca y en horarios regulares.",
+        "category": "Alimentación",
+        "image": "url_imagen_3"
+    },
+    {
+        "title": "Cama ortopédica para perros grandes",
+        "price": 120000,
+        "description": "Cama cómoda y ortopédica para perros grandes con problemas articulares.",
+        "category": "Descanso",
+        "image": "url_imagen_4"
+    },
+    {
+        "title": "Arnés reflectante para paseos nocturnos",
+        "price": 55000,
+        "description": "Arnés ajustable y reflectante para mayor seguridad en paseos nocturnos.",
+        "category": "Accesorios",
+        "image": "url_imagen_5"
+    },
+    {
+        "title": "Cepillo de pelo para gatos de pelo largo",
+        "price": 35000,
+        "description": "Cepillo suave para desenredar el pelo largo de los gatos.",
+        "category": "Higiene",
+        "image": "url_imagen_6"
+    },
+    {
+        "title": "Juguete interactivo dispensador de premios",
+        "price": 48000,
+        "description": "Juguete que estimula la mente del perro al dispensar premios durante el juego.",
+        "category": "Juguetes",
+        "image": "url_imagen_7"
+    },
+    {
+        "title": "Transportadora para gatos pequeños",
+        "price": 65000,
+        "description": "Transportadora cómoda y segura para gatos de tamaño pequeño.",
+        "category": "Viaje",
+        "image": "url_imagen_8"
+    },
+    {
+        "title": "Chaleco salvavidas para perros",
+        "price": 85000,
+        "description": "Chaleco flotante para perros ideal para actividades acuáticas.",
+        "category": "Accesorios",
+        "image": "url_imagen_9"
+    },
+    {
+        "title": "Snack natural de pollo para entrenamiento",
+        "price": 30000,
+        "description": "Premios pequeños y saludables ideales para el entrenamiento de mascotas.",
+        "category": "Alimentación",
+        "image": "url_imagen_10"
+    },
+    {
+        "title": "Cepillo dental para perros y gatos",
+        "price": 18000,
+        "description": "Cepillo de dientes suave para mantener la higiene bucal de mascotas.",
+        "category": "Higiene",
+        "image": "url_imagen_11"
+    },
+    {
+        "title": "Rascador para gatos con poste de sisal",
+        "price": 95000,
+        "description": "Rascador resistente con poste de sisal para el entretenimiento de gatos.",
+        "category": "Juguetes",
+        "image": "url_imagen_12"
+    },
+    {
+        "title": "Jaula espaciosa para pájaros",
+        "price": 135000,
+        "description": "Jaula amplia y segura para aves con múltiples perchas y comederos.",
+        "category": "Hogar",
+        "image": "url_imagen_13"
+    },
+    {
+        "title": "Correa extensible para perros",
+        "price": 42000,
+        "description": "Correa flexible y ajustable para paseos cómodos con tu perro.",
+        "category": "Accesorios",
+        "image": "url_imagen_14"
+    },
+    {
+        "title": "Arena aglomerante para gatos",
+        "price": 55000,
+        "description": "Arena de rápida aglomeración y control de olores para bandejas sanitarias.",
+        "category": "Higiene",
+        "image": "url_imagen_15"
+    },
+    {
+        "title": "Pañales desechables para perros",
+        "price": 38000,
+        "description": "Pañales absorbentes para perros con problemas de incontinencia.",
+        "category": "Higiene",
+        "image": "url_imagen_16"
+    },
+    {
+        "title": "Cuna suave para gatos y perros pequeños",
+        "price": 58000,
+        "description": "Cuna acolchada para el descanso de mascotas pequeñas y cómoda lavable.",
+        "category": "Descanso",
+        "image": "url_imagen_17"
+    },
+    {
+        "title": "Plato antideslizante para comida de mascotas",
+        "price": 25000,
+        "description": "Plato resistente y antideslizante para evitar derrames durante la alimentación.",
+        "category": "Alimentación",
+        "image": "url_imagen_18"
+    },
+    {
+        "title": "Cepillo removedor de pelo para muebles",
+        "price": 32000,
+        "description": "Cepillo eficaz para eliminar el pelo de mascotas de los muebles.",
+        "category": "Higiene",
+        "image": "url_imagen_19"
+    },
+    {
+        "title": "Set de juguetes variados para gatos",
+        "price": 42000,
+        "description": "Set que incluye diferentes juguetes para la diversión de los gatos.",
+        "category": "Juguetes",
+        "image": "url_imagen_20"
+    }
+])
